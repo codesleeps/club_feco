@@ -1,0 +1,70 @@
+
+fecoShots = [
+  {id: 001, name: "Cherry", category: "Shots", sizes: "50ml", image: "path/to/image"}
+  {id: 002, name: "Kola Champagne", category: "Shots", sizes: "50ml", image: "path/to/image"}
+  {id: 003, name: "Strawberry", category: "Shots", sizes: "50ml", image: "path/to/image"}
+  {id: 004, name: "Fruit Punch", category: "Shots", sizes: "50ml", image: "path/to/image"}
+  {id: 005, name: "Grape", category: "Shots", sizes: "50ml", image: "path/to/image"}
+  {id: 006, name: "Pineapple", category: "Shots", sizes: "50ml", image: "path/to/image"}
+  {id: 007, name: "Vimto", category: "Shots", sizes: "50ml", image: "path/to/image"}
+  {id: 008, name: "Ribena", category: "Shots", sizes: "50ml", image: "path/to/image"}
+  {id: 009, name: "Irn-Bru", category: "Shots", sizes: "50ml", image: "path/to/image"}
+  {id: 010, name: "Mango", category: "Shots", sizes: "50ml", image: "path/to/image"}
+  {id: 011, name: "Sorrel & Ginger", category: "Shots", sizes: "50ml", image: "path/to/image"}
+  {id: 012, name: "Forest Fruits", category: "Shots", sizes: "50ml", image: "path/to/image"}
+]
+fecoContender = [
+  {id: 100, name: "Cherry", category: "Contender", sizes: "300ml", image: "path/to/image"}
+  {id: 101, name: "Cherry", category: "Contender", sizes: "300ml", image: "path/to/image"}
+  {id: 102, name: "Cherry", category: "Contender", sizes: "300ml", image: "path/to/image"}
+  {id: 103, name: "Cherry", category: "Contender", sizes: "300ml", image: "path/to/image"}
+  {id: 104, name: "Cherry", category: "Contender", sizes: "300ml", image: "path/to/image"}
+  {id: 105, name: "Cherry", category: "Contender", sizes: "300ml", image: "path/to/image"}
+  {id: 106, name: "Cherry", category: "Contender", sizes: "300ml", image: "path/to/image"}
+  {id: 107, name: "Cherry", category: "Contender", sizes: "300ml", image: "path/to/image"}
+  {id: 108, name: "Cherry", category: "Contender", sizes: "300ml", image: "path/to/image"}
+  {id: 109, name: "Cherry", category: "Contender", sizes: "300ml", image: "path/to/image"}
+  {id: 110, name: "Cherry", category: "Contender", sizes: "300ml", image: "path/to/image"}
+  {id: 111, name: "Cherry", category: "Contender", sizes: "300ml", image: "path/to/image"}
+]
+
+fecoChocolates = [
+  {id: 200, name: "Bailey's & Honeycomb", category: "Chocolate", size: "200g", strength: "250mg", image: "path/to/image}
+  {id: 201, name: "Cashews", category: "Chocolate", size: "200g", image: "path/to/image}
+  {id: 202, name: "Bailey's & Honeycomb", category: "Chocolate", size: "200g", strength: "250mg", image: "path/to/image}
+  {id: 203, name: "Milk Chocolate", category: "Chocolate", size: "200g", strength: "250mg", image: "path/to/image}
+  {id: 204, name: "Dry Roasted Nuts", category: "Chocolate", size: "200g", strength: "250mg", image: "path/to/image}
+  {id: 205, name: "Fruit & Nut", category: "Chocolate", size: "200g", image: "path/to/image}
+  {id: 206, name: "Honey Roasted Nuts", category: "Chocolate", size: "200g", strength: "250mg", image: "path/to/image}
+  {id: 207, name: "Rum & Raisin", category: "Chocolate", size: "200g", image: "path/to/image}
+  {id: 208, name: "Vodka & Cranberries", category: "Chocolate", size: "200g", strength: "250mg", image: "path/to/image}
+  {id: 209, name: "Whiskey & Fruits", category: "Chocolate", size: "200g", strength: "250mg", image: "path/to/image}
+  {id: 210, name: "", category: "Chocolate", size: "200g", image: "path/to/image}
+  {id: 211, name: "", category: "Chocolate", size: "200g", image: "path/to/image}
+]
+
+fecoSmokeless = [
+  {id: 300, name: "Apple", category: "Smokeless", size: "300ml", strength: "500mg", image: "path/}
+  {id: 301, name: "Grape", category: "Smokeless", size: "300ml", strength: "500mg", image: "path/}
+  {id: 302, name: "Mango", category: "Smokeless", size: "300ml", strength: "500mg", image: "path/}
+  {id: 303, name: "Orange", category: "Smokeless", size: "300ml", strength: "500mg", image: "path/}
+  {id: 304, name: "Pineapple", category: "Smokeless", size: "300ml", strength: "500mg", image: "path/}
+  {id: 305, name: "Sugar Cane", category: "Smokeless", size: "300ml", strength: "500mg", image: "path/}
+  {id: 306, name: "Pomegrante", category: "Smokeless", size: "300ml", strength: "500mg", image: "path/}
+  {id: 307, name: "Mint & Cucumber", category: "Smokeless", size: "300ml", strength: "500mg", image: "path/}
+  {id: 308, name: "Ginger & Lime", category: "Smokeless", size: "300ml", strength: "500mg", image: "path/}
+  {id: 309, name: "Sorrel & Ginger", category: "Smokeless", size: "300ml", strength: "500mg image: "path/}
+  {id: 310, name: "Apple", category: "Smokeless", size: "300ml", strength: "500mg", image: "path/}
+  {id: 311, name: "Apple", category: "Smokeless", size: "300ml", strength: "500mg", image: "path/}
+]
+
+fecoHoney = [
+  {id: 400, name: "250mg", category: "Honey", size: "500ml", strength: "250mg", image: "path/}
+  {id: 401, name: "500mg", category: "Honey", size: "500ml", strength: "500mg", image: "path/}
+  {id: 402, name: "750mg", category: "Honey", size: "500ml", strength: "750mg", image: "path/}
+  {id: 403, name: "1000mg", category: "Honey", size: "500ml", strength: "1000mg", image: "path/}
+  {id: 404, name: "1250mg", category: "Honey", size: "500ml", strength: "1250mg", image: "path/}
+  {id: 405, name: "1500mg", category: "Honey", size: "500ml", strength: "1500mg", image: "path/}
+  {id: 406, name: "1750mg", category: "Honey", size: "500ml", strength: "1750mg", image: "path/}
+  {id: 407, name: "2000mg", category: "Honey", size: "500ml", strength: "2000mg", image: "path/}
+]
