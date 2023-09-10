@@ -30,8 +30,8 @@
   <!-- Google Fonts Roboto -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" defer/>
   <!-- MDB -->
-  <link rel="stylesheet" href="./app/css/mdb.min.css" media="all"/>
-  <link rel="stylesheet" href="./app/css/main.css" media="all">
+  <link rel="stylesheet" href="./app/css/mdb.min.css" media="all" defer/>
+  <link rel="stylesheet" href="./app/css/main.css" media="all" defer>
 
 </head>
 <body>
@@ -115,7 +115,7 @@
           <h3 class="mb-3 mb-md-0 px-3">Contact local supplier
           </h3>
           <div class="input-group email-input">
-            <input id="email-input" type="text" class="form-control" placeholder="Chat Disabled" aria-label="Enter Email"
+            <input id="email" name="email" autocomplete="name" type="text" class="form-control" placeholder="Chat Disabled" aria-label="Enter Email"
               aria-describedby="button-addon2">
             <button class="btn btn-outline-warning btn-md" type="button" id="button-addon2">
               Enter
@@ -193,7 +193,7 @@
                     data-mdb-target="#exampleModal" aria-label="Modal Form">⭐⭐⭐⭐⭐</a><br>
                   <em class="fs-3">Selection</em>
                 <div class="product-size-container">
-                  <select>
+                  <select id="product-container">
                     <option selected value="pineapple">Pineapple</option>
                     <option value="grape">Grape</option>
                     <option value="strawbewrry">Strawbewrry</option>
@@ -202,9 +202,9 @@
                   </select> 
                 </div>
                 <div class="product-quantity-container">  
-                  <select>
+                  <select id="product-pinapple">
                     <option selected value="1">1</option>
-                    <option value="2">2</option>
+                    <option number="number" value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
                     <option value="5">5</option>
@@ -266,7 +266,7 @@
                       data-mdb-target="#exampleModal" aria-label="Modal Form">⭐⭐⭐⭐⭐</a><br>
                     <em class="fs-3">Selection</em>
                   <div class="product-size-container">
-                    <select>
+                    <select id="product-container1">
                     <option selected value="fruit punch">Fruit Punch</option>
                       <option value="strawwberry">Strawberry</option>
                       <option value="kola">Kola Champagne</option>
@@ -281,7 +281,7 @@
                     </select> 
                   </div>
                   <div class="product-quantity-container">  
-                    <select>
+                    <select id="product-fruit">
                       <option selected value="1">1</option>
                       <option value="2">2</option>
                       <option value="3">3</option>
@@ -346,7 +346,7 @@
                     data-mdb-target="#exampleModal" aria-label="Modal Form">⭐⭐⭐⭐⭐</a><br>
                   <em class="fs-3">Selection</em>
                 <div class="product-size-container">
-                  <select>
+                  <select id="product-container2">
                     <option selected value="mango">Mango</option>
                     <option value="kola">Kola Champagne</option>
                     <option value="strawwberry">Strawberry</option>
@@ -357,7 +357,7 @@
                   </select> 
                 </div>
                 <div class="product-quantity-container">  
-                  <select>
+                  <select id="product-mango">
                     <option selected value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -421,7 +421,7 @@
                           data-mdb-target="#exampleModal" aria-label="Modal Form">⭐⭐⭐⭐⭐</a><br>
                         <em class="fs-3">Selection</em>
                       <div class="product-size-container">
-                        <select>
+                        <select id="product-container3">
                             <option value="vodka_&_cranberries">Vodka & Cranberries</option>
                             <option value="dry_roasted">Dry roasted</option>
                             <option value="fruit_&_Nut">Fruit & Nut</option>
@@ -436,7 +436,7 @@
                         </select> 
                       </div>
                       <div class="product-quantity-container">  
-                        <select>
+                        <select id="product-vodka">
                           <option selected value="1">1</option>
                           <option value="2">2</option>
                           <option value="3">3</option>
@@ -476,10 +476,10 @@
                 Our CBD gummies are a tasty and discreet way to incorporate CBD into your life. Crafted with care, these delectable treats provide a precise and convenient dosage of CBD. Perfect for those who prefer a more enjoyable approach to wellness, our CBD gummies come in an array of flavors and strengths to suit your preferences.
               </p>
               <ul>
-                <li><i class="bx bx-check-double"></i> 100% Pure & Natural.</li>
-                <li><i class="bx bx-check-double"></i> Various strengths available</li>
-                <li><i class="bx bx-check-double"></i> Allday Dosing System</li>
-                <li><i class="bx bx-check-double"></i> Vegan Friendly</li>
+                <li>100% Pure & Natural.</li>
+                <li>Various strengths available</li>
+                <li>Allday Dosing System</li>
+                <li>Vegan Friendly</li>
               </ul>
             </div>
           </div>
@@ -500,7 +500,7 @@
                     data-mdb-target="#exampleModal" aria-label="Modal Form">⭐⭐⭐⭐⭐ feedback</a><br>
                   <em class="fs-3">Selection</em>
                 <div class="product-size-container">
-                  <select>
+                  <select id="product-container4">
                     <option selected value="1">100mg - £9.99</option>
                     <option value="2">200mg - £19.99</option>
                     <option value="3">300mg - 24.99</option>
@@ -509,7 +509,7 @@
                   </select> 
                 </div>
                 <div class="product-quantity-container">  
-                  <select>
+                  <select id="product-gummies">
                     <option selected value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -572,7 +572,7 @@
                           data-mdb-target="#exampleModal" aria-label="Modal Form">⭐⭐⭐⭐⭐ feedback</a><br>
                         <em class="fs-3">Selection</em>
                       <div class="product-size-container">
-                        <select>
+                        <select id="product-container5">
                           <option selected value="1">100mg - £14.99</option>
                           <option value="2">200mg - £29.99</option>
                           <option value="3">300mg - 34.99</option>
@@ -581,7 +581,7 @@
                         </select> 
                       </div>
                       <div class="product-quantity-container">  
-                        <select>
+                        <select id="product-honey">
                           <option selected value="1">1</option>
                           <option value="2">2</option>
                           <option value="3">3</option>
@@ -643,7 +643,7 @@
                           data-mdb-target="#exampleModal" aria-label="Modal Form">⭐⭐⭐⭐⭐ feedback</a><br>
                         <em class="fs-3">Selection</em>
                       <div class="product-size-container">
-                        <select>
+                        <select id="product-container6">
                           <option selected value="1">100mg - £9.99</option>
                           <option value="2">200mg - £19.99</option>
                           <option value="3">300mg - 29.99</option>
@@ -652,7 +652,7 @@
                         </select> 
                       </div>
                       <div class="product-quantity-container">  
-                        <select>
+                        <select id="product-tincture">
                           <option selected value="1">1</option>
                           <option value="2">2</option>
                           <option value="3">3</option>
@@ -716,7 +716,7 @@
                     data-mdb-target="#exampleModal" aria-label="Modal Form">⭐⭐⭐⭐⭐ feedback</a><br>
                   <em class="fs-3">Selection</em>
                 <div class="product-size-container">
-                  <select>
+                  <select id="product-container7">
                     <option selected value="1">100mg - £9.99</option>
                     <option value="2">200mg - £19.99</option>
                     <option value="3">300mg - 24.99</option>
@@ -725,7 +725,7 @@
                   </select> 
                 </div>
                 <div class="product-quantity-container">  
-                  <select>
+                  <select id="product-topicals">
                     <option selected value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -787,7 +787,7 @@
                           data-mdb-target="#exampleModal" aria-label="Modal Form">⭐⭐⭐⭐⭐ feedback</a><br>
                         <em class="fs-3">Selection</em>
                       <div class="product-size-container">
-                        <select>
+                        <select id="product-container8">
                           <option selected value="1">100ml - £14.99</option>
                           <option value="2">200ml - £29.99</option>
                           <option value="3">300ml - 34.99</option>
@@ -796,7 +796,7 @@
                         </select> 
                       </div>
                       <div class="product-quantity-container">  
-                        <select>
+                        <select id="product-vapes">
                           <option selected value="1">1</option>
                           <option value="2">2</option>
                           <option value="3">3</option>
@@ -1044,7 +1044,7 @@
             <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <textarea name="feedback" id="review" cols="30" rows="5"></textarea>
+            <textarea name="feedback" id="modal" autocomplete="name" cols="30" rows="5"></textarea>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Close</button>
