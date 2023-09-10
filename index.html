@@ -28,10 +28,21 @@
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" defer/>
   <!-- Google Fonts Roboto -->
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" defer/>
+  <link rel="preload" as="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" defer/>
   <!-- MDB -->
   <link rel="stylesheet" href="./app/css/mdb.min.css" media="all" defer/>
   <link rel="stylesheet" href="./app/css/main.css" media="all" defer>
+  <!-- web manifest  -->
+  <link rel="manifest" href="./manifest.json">
+   <!-- Registering service worker  -->
+   <script>
+    if('serviceWorker' in navigator){
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+      })
+    }
+  </script>
+
 
 </head>
 <body>
