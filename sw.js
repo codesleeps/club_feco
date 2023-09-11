@@ -48,7 +48,7 @@ const resourcesToPrecache = [
   "app/img/logo/logo384x384.png",
   "app/img/logo/logo512x512.png",
   "app/img/shots/FECO_SHOTS_CHERRY_LITE.webp",
-  "app/img/topicals/topical-rub.webp",
+  "app/img/topicals/muscle_rub.webp",
   "app/img/vape/vape_disp.webp",
   "app/img/vape/vape_in.png",
   "app/img/vape/vape_small.webp",
