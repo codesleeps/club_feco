@@ -2,6 +2,14 @@
 <html lang="en">
 
 <head>
+  <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    script-src 'self' https://cdnjs.cloudflare.com;
+    style-src 'self' https://fonts.googleapis.com https://cdnjs.cloudflare.com 'unsafe-inline';
+    img-src 'self';
+    font-src 'self' https://fonts.googleapis.com https://cdnjs.cloudflare.com;
+    connect-src 'self';
+  ">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta http-equiv="x-ua-compatible" content="ie=edge" />
@@ -28,27 +36,28 @@
   <!-- favicon -->
   <link rel="icon" href="./app/img/logo/leaf.png" type="image/x-icon" width="50" height="45" />
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" defer/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
   <!-- Google Fonts Roboto -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" defer/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <!-- Bootstrap CSS (you need to replace this with the correct Bootstrap CDN link) -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
   <!-- MDB -->
-  <link rel="stylesheet" href="./app/css/mdb.min.css" media="all" defer/>
-  <link rel="stylesheet" href="./app/css/main.css" media="all" defer>
+  <link rel="stylesheet" href="./app/css/mdb.min.css" media="all" />
+  <link rel="stylesheet" href="./app/css/main.css" media="all" />
   <!-- web manifest  -->
   <link rel="manifest" href="./manifest.json">
-   <!-- canonical  -->
-   <link rel="canonical" href="https://codesleeps.github.io/club_feco/">
-   <!-- Registering service worker  -->
-   <script>
-    if('serviceWorker' in navigator){
+  <!-- canonical  -->
+  <link rel="canonical" href="https://codesleeps.github.io/club_feco/">
+  <!-- Registering service worker  -->
+  <script>
+    if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js')
-      })
+        navigator.serviceWorker.register('/sw.js');
+      });
     }
   </script>
-
-
 </head>
+
 <body>
   <section id="top">
     <header>
@@ -238,7 +247,7 @@
                 </p>
                 <!-- cart button -->
                 <button id="feedbackButtonSmokeless" class="button-85" role="button">
-                  <a href="https://www.youtube.com/watch?v=-ZhxFtmAoXg" target="_blank" class="text-warning" aria-label="Order Button">Order</a>
+                  <a href="https://www.youtube.com/watch?v=-ZhxFtmAoXg" target="_blank" class="text-light" aria-label="Order Button">Order</a>
                 </button>
                 </a>
               </div>
@@ -317,7 +326,7 @@
                   </p>
                   <!-- cart button -->
                   <button id="feedbackButtonShots" class="button-85" role="button">
-                    <a href="https://www.youtube.com/watch?v=-ZhxFtmAoXg" target="_blank" class="text-warning" aria-label="Order Button">Order</a>
+                    <a href="https://www.youtube.com/watch?v=-ZhxFtmAoXg" target="_blank" class="text-light" aria-label="Order Button">Order</a>
                   </button>
                   </a>
                 </div>
@@ -393,7 +402,7 @@
                 </p>
                 <!-- cart button -->
                 <button id="feedbackButtonCocktails" class="button-85" role="button">
-                  <a href="https://www.youtube.com/watch?v=-ZhxFtmAoXg" target="_blank" class="text-warning" aria-label="Order Button">Order</a>
+                  <a href="https://www.youtube.com/watch?v=-ZhxFtmAoXg" target="_blank" class="text-light" aria-label="Order Button">Order</a>
                 </button>
                 </a>
               </div>
@@ -472,7 +481,7 @@
                       </p>
                       <!-- cart button -->
                       <button id="feedbackButtonChocolate" class="button-85" role="button">
-                        <a href="https://www.youtube.com/watch?v=-ZhxFtmAoXg" target="_blank" class="text-warning" aria-label="Order Button">Order</a>
+                        <a href="https://www.youtube.com/watch?v=-ZhxFtmAoXg" target="_blank" class="text-light" aria-label="Order Button">Order</a>
                       </button>
                       </a>
                     </div>
@@ -545,7 +554,7 @@
                 </p>
                 <!-- cart button -->
                 <button id="feedbackButtonGummies" class="button-85" role="button">
-                  <a href="https://www.youtube.com/watch?v=-ZhxFtmAoXg" target="_blank" class="text-warning" aria-label="Order Button">Order</a>
+                  <a href="https://www.youtube.com/watch?v=-ZhxFtmAoXg" target="_blank" class="text-light" aria-label="Order Button">Order</a>
                 </button>
                 </a>
               </div>
@@ -617,7 +626,7 @@
                       </p>
                       <!-- cart button -->
                       <button id="feedbackButtonHoney" class="button-85" role="button">
-                        <a href="https://www.youtube.com/watch?v=-ZhxFtmAoXg" target="_blank" class="text-warning" aria-label="Order Button">Order</a>
+                        <a href="https://www.youtube.com/watch?v=-ZhxFtmAoXg" target="_blank" class="text-light" aria-label="Order Button">Order</a>
                       </button>
                       </a>
                     </div>
@@ -688,7 +697,7 @@
                       </p>
                       <!-- cart button -->
                       <button id="feedbackButtonTinctures" class="button-85" role="button">
-                        <a href="https://www.youtube.com/watch?v=-ZhxFtmAoXg" target="_blank" class="text-warning" aria-label="Order Button">Order</a>
+                        <a href="https://www.youtube.com/watch?v=-ZhxFtmAoXg" target="_blank" class="text-light" aria-label="Order Button">Order</a>
                       </button>
                       </a>
                     </div>
@@ -760,7 +769,7 @@
                 </p>
                 <!-- cart button -->
                 <button id="feedbackButtontopicals" class="button-85" role="button">
-                  <a href="https://www.youtube.com/watch?v=-ZhxFtmAoXg" target="_blank" class="text-warning" aria-label="Order Button">Order</a>
+                  <a href="https://www.youtube.com/watch?v=-ZhxFtmAoXg" target="_blank" class="text-light" aria-label="Order Button">Order</a>
                 </button>
                 </a>
               </div>
@@ -830,7 +839,7 @@
                       </p>
                       <!-- cart button -->
                       <button id="feedbackButtonVapes" class="button-85" role="button">
-                        <a href="https://www.youtube.com/watch?v=-ZhxFtmAoXg" target="_blank" class="text-warning" aria-label="Order Button">Order</a>
+                        <a href="https://www.youtube.com/watch?v=-ZhxFtmAoXg" target="_blank" class="text-light" aria-label="Order Button">Order</a>
                       </button>
                       </a>
                     </div>
