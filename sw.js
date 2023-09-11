@@ -36,7 +36,7 @@ const resourcesToPrecache = [
   "app/img/gummies/gum_one.webp",
   "app/img/gummies/gummies_batch.webpapp/img/gummies/gummies_batch.webp",
   "app/img/honey/HONEY 500MG.webp",
-  "app/img/logo/IMG_20230329_145702.webp",
+  "app/img/logo/hero2_501x301.webp",
   "app/img/logo/leaf.png",
   "app/img/logo/logo75x75.png",
   "app/img/logo/logo95x95.png",
