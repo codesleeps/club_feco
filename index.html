@@ -34,22 +34,22 @@
   <!-- title  -->
   <title>CLUB FECO</title>
   <!-- favicon -->
-  <link rel="icon" href="./app/img/logo/leaf.png" type="image/x-icon" width="50" height="45" />
+  <link async rel="icon" href="./app/img/logo/leaf.png" type="image/x-icon" width="50" height="45" />
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link async rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" defer/>
   <!-- Google Fonts Roboto -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <link async rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" defer/>
   <!-- Bootstrap CSS (you need to replace this with the correct Bootstrap CDN link) -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link async rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" defer />
   <!-- MDB -->
-  <link rel="stylesheet" href="./app/css/mdb.min.css" media="all" />
-  <link rel="stylesheet" href="./app/css/main.css" media="all" />
+  <link async rel="stylesheet" href="./app/css/mdb.min.css" media="all" defer/>
+  <link async rel="stylesheet" href="./app/css/main.css" media="all" defer/>
   <!-- web manifest  -->
-  <link rel="manifest" href="./manifest.json">
+  <link async rel="manifest" href="./manifest.json" defer>
   <!-- canonical  -->
-  <link rel="canonical" href="https://codesleeps.github.io/club_feco/">
+  <link async rel="canonical" href="https://codesleeps.github.io/club_feco/" defer>
   <!-- Registering service worker  -->
-  <script>
+  <script> 
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
         navigator.serviceWorker.register('/sw.js');
@@ -138,15 +138,15 @@
     <section class="news-input p-4">
       <div class="container">
         <div class="d-md-flex justify-content-between align-items-center">
-          <h2 class="mb-3 mb-md-0 px-3">Contact your local supplier
+          <h2 class="mb-3 mb-md-0">Contact your local supplier...
           </h2>
-          <div class="input-group email-input">
+          <!-- <div class="input-group email-input">
             <input id="email" name="email" autocomplete="name" type="text" class="form-control" placeholder="Chat Disabled..." aria-label="Enter Email"
               aria-describedby="button-addon2">
             <button class="btn btn-outline-warning btn-md" type="button" id="button-addon2">
               Enter
             </button>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -158,7 +158,7 @@
         <div class="row">
           <div class="col-lg-4">
             <img src="./app/img/about/about_club_500x334.webp" width="500" height="334" loading="lazy"
-              class="img-fluid mt-5" alt="Cannabis indoor farm">
+              class="img-fluid mt-5 rounded rounded-3" alt="Cannabis indoor farm">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 ">
             <a href="https://codesleeps.github.io/solid-octo-enigma/" aria-label="Enter This Cannabis Quiz">
@@ -196,10 +196,10 @@
               <p class="fs-3">
                 Our CBD-infused fresh juices offer a delightful way to incorporate CBD into your daily routine. Sourced from premium hemp extracts, our CBD is blended with the purest, juiciest fruits to create a truly refreshing and revitalizing experience. Each sip provides a moment of relaxation and rejuvenation, making it the perfect addition to your morning routine or as a pick-me-up throughout the day.
               </p>
-              <ul class="fs-4">
+              <ul class="fs-4 text-success">
                 <li>100% Pure & Natural.</li>
                 <li>Various strengths available</li>
-                <li>Allday Dosing System</li>
+                <li>A Refreshing Twist on Wellness</li>
                 <li>Vegan Friendly</li>
               </ul>
             </div>
@@ -211,8 +211,8 @@
           <div class="row row-cols-1 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 g-3 mx-1 mb-5">
           <div class="col">
             <div class="card h-100 border border-3 border-warning">
-              <img src="./app/img/smokeless/pineappleSmokeless-transformed.webp" class="card-img-top" loading="lazy" width="301"
-                height="200" alt="CBD Fresh Fuit Juices"/>
+              <img src="./app/img/smokeless/pineappleSmokeless.webp" class="card-img-top" loading="lazy" width="382"
+                height="267" alt="CBD Fresh Fuit Juices"/>
               <div class="card-body px-2">
                 <p class="card-text text-light">
                   <a href="#exampleModal" type="button" data-mdb-toggle="modal"
@@ -222,20 +222,20 @@
                   <select id="product-container">
                     <option selected value="pineapple">Pineapple</option>
                     <option value="grape">Grape</option>
-                    <option value="strawbewrry">Strawbewrry</option>
+                    <option value="strawbewrry">Mango</option>
                     <option value="apple">Apple </option>
                     <option value="orange">Orange </option>
                   </select> 
                 </div>
                 <div class="product-quantity-container">  
                   <select id="product-pinapple">
-                    <option selected value="1">1</option>
-                    <option number="number" value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
+                    <option selected value="1">100mg</option>
+                    <option number="number" value="2">200mg</option>
+                    <option value="3">300mg</option>
+                    <option value="4">400mg</option>
+                    <option value="5">500mg</option>
+                    <option value="6">750mg</option>
+                    <option value="7">1000mg</option>
                   </select> 
                 </div>
                 </p>
@@ -259,7 +259,7 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-4">
-                <img src="./app/img/about/shots_selection_500x332.webp" class="img-fluid" loading="lazy" width="500" height="332"
+                <img src="./app/img/about/shots_selection_500x332.png" class="img-fluid" loading="lazy" width="500" height="332"
                   alt="CBD Tincture Bottles">
               </div>
               <div class="col-lg-8 pt-4 pt-lg-0 fs-3 ">
@@ -268,11 +268,11 @@
                   We've taken the last 7 years to perfect our recipe because we specialize in only providing the <em>Highest
                     Quality Best Tasting</em> infused syrups. No other syrup compares to Feco Shots! Just like our other CBD products, our canna-infused syrups undergo rigorous quality testing to ensure they meet <em>Our High Standards</em>. We take pride in delivering a pure and potent experience that you can trust.
                 </p>
-                <ul>
-                  <li>100% Pure & Natural.</li>
-                  <li>Various strengths available</li>
-                  <li>Allday Dosing System</li>
-                  <li>Vegan Friendly</li>
+                <ul class=" text-success">
+                  <li>100% Pure Sugar Cane Rum.</li>
+                  <li>Rapid Long Lasting Effects</li>
+                  <li>A Unique Blend Formulated by A.I.</li>
+                  <li>Official Collector's Edition Rum</li>
                 </ul>
               </div>
             </div>
@@ -339,7 +339,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-4">
-              <img src="./app/img/about/club_feco_500x282.webp" class="img-fluid" loading="lazy" width="500" height="282"
+              <img src="./app/img/about/juiceGlass.png" class="img-fluid" loading="lazy" width="500" height="282"
                 alt="Various CBD drinks in glasses">
             </div>
             <div class="col-lg-8 pt-4 pt-lg-0 fs-3">
@@ -414,7 +414,7 @@
               <div class="container">
                 <div class="row">
                   <div class="col-lg-4">
-                    <img src="./app/img/about/chocolate_about_500x391.webp" class="img-fluid" loading="lazy" width="500" height="391"
+                    <img src="./app/img/about/chocolate_about_500x391.webp" class="img-fluid rounded rounded-3" loading="lazy" width="500" height="391"
                       alt="CBD Tincture Bottles">
                   </div>
                   <div class="col-lg-8 pt-4 pt-lg-0 fs-3">
@@ -422,7 +422,7 @@
                     <p>
                       We use a variety of chocolates according to each recipe to ensure that we achieve a unique set of chocolates for our infusion
                     </p>
-                    <ul>
+                    <ul class="text-success">
                       <li>Delicious Wellness</li>
                       <li>Various strengths available</li>
                       <li>New Alcohol Infused Chocolates</li>
@@ -493,7 +493,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-4">
-              <img src="./app/img/about/gummies_batch.webp" class="img-fluid" loading="lazy" width="500" height="334"
+              <img src="./app/img/about/gummies_batch.webp" class="img-fluid rounded rounded-3 rounded rounded-3" loading="lazy" width="500" height="334"
                 alt="CBD Tincture Bottles">
             </div>
             <div class="col-lg-8 pt-4 pt-lg-0 fs-3">
@@ -501,10 +501,10 @@
               <p>
                 Our CBD gummies are a tasty and discreet way to incorporate CBD into your life. Crafted with care, these delectable treats provide a precise and convenient dosage of CBD. Perfect for those who prefer a more enjoyable approach to wellness, our CBD gummies come in an array of flavors and strengths to suit your preferences.
               </p>
-              <ul>
+              <ul class="text-success">
                 <li>100% Pure & Natural.</li>
                 <li>Various strengths available</li>
-                <li>Allday Dosing System</li>
+                <li>Improved Sleep</li>
                 <li>Vegan Friendly</li>
               </ul>
             </div>
@@ -566,7 +566,7 @@
               <div class="container">
                 <div class="row">
                   <div class="col-lg-4">
-                    <img src="./app/img/about/about_honey_500x334.webp" class="img-fluid" loading="lazy" width="500" height="334"
+                    <img src="./app/img/about/about_honey_500x334.webp" class="img-fluid rounded rounded-3" loading="lazy" width="500" height="334"
                       alt="CBD Tincture Bottles">
                   </div>
                   <div class="col-lg-8 pt-4 pt-lg-0 fs-3">
@@ -574,12 +574,12 @@
                     <p>
                       Experience the harmonious blend of nature's sweetness and the potential benefits of CBD with our CBD-infused honey. At <em>Club Feco</em>, we've harnessed the natural goodness of honey and combined it with premium CBD to create a unique and wholesome elixir. Our CBD honey is the perfect addition to your pantry, offering a versatile and delicious way to incorporate CBD into your daily rituals. Drizzle it over your morning toast, stir it into your favorite tea, or use it as a sweetener in recipes; the possibilities are endless. Immerse yourself in the soothing and naturally sweet world of CBD-infused honey and elevate your wellness journey to new heights.
                     </p>
-                    <ul>
+                    <ul class="text-success">
                       <li>Relaxation and Stress Relief</li>
                       <li>Pain Management</li>
                       <li>Improved Sleep</li>
                       <li>Discreet and Convenient</li>
-                    </ul>
+                    </ulcl>
                   </div>
                 </div>
               </div>
@@ -638,7 +638,7 @@
               <div class="container">
                 <div class="row">
                   <div class="col-lg-4">
-                    <img src="./app/img/about/best-cbd.webp" class="img-fluid" loading="lazy" width="250" height="157"
+                    <img src="./app/img/about/best-cbd.webp" class="img-fluid rounded rounded-3" loading="lazy" width="250" height="157"
                       alt="CBD Tincture Bottles">
                   </div>
                   <div class="col-lg-8 pt-4 pt-lg-0 fs-3">
@@ -646,10 +646,10 @@
                     <p>
                       For those seeking a versatile and potent CBD solution, our CBD tinctures are a top choice. Made from premium hemp extracts, our tinctures can be taken sublingually or added to your favorite beverages and recipes. They offer a customizable way to experience the potential benefits of CBD, with various concentrations available to meet your specific needs.
                     </p>
-                    <ul>
-                      <li>100% Pure & Natural.</li>
+                    <ul class="text-success">
+                      <li>Improved Sleep</li>
+                      <li>Experience Rapid and Enduring Effects.</li>
                       <li>Various strengths available</li>
-                      <li>Allday Dosing System</li>
                       <li>Vegan Friendly</li>
                     </ul>
                   </div>
@@ -710,7 +710,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-4">
-              <img src="./app/img/about/topicals_aboutPage.webp" class="img-fluid" loading="lazy" width="300" height="168"
+              <img src="./app/img/about/topicals_aboutPage.webp" class="img-fluid rounded rounded-3" loading="lazy" width="300" height="168"
                 alt="CBD Tincture Bottles">
             </div>
             <div class="col-lg-8 pt-4 pt-lg-0 fs-3">
@@ -718,7 +718,7 @@
               <p>
                 Discover the power of targeted relief with our range of CBD topicals. At <em>Club Feco</em>, we've harnessed the potential benefits of CBD in the form of soothing balms, creams, and salves designed to provide localized comfort. Our CBD topicals offer a convenient way to address specific areas of discomfort, whether it's sore muscles, joint stiffness, or skin irritations. Infused with premium CBD and thoughtfully selected ingredients, these topicals provide a natural solution for your wellness needs. Experience the rejuvenating sensation of CBD topicals, and let them become your trusted companion for addressing discomfort and supporting your overall wellbeing.
               </p>
-              <ul>
+              <ul class="text-success">
                 <li>Localized Relief</li>
                 <li>Muscle and Joint Comfort</li>
                 <li>Skin Health</li>
@@ -781,7 +781,7 @@
               <div class="container">
                 <div class="row">
                   <div class="col-lg-4">
-                    <img src="./app/img/vape/vape_small.webp" class="img-fluid" loading="lazy" width="398" height="282"
+                    <img src="./app/img/vape/vape_small.webp" class="img-fluid rounded rounded-3" loading="lazy" width="398" height="282"
                       alt="CBD Tincture Bottles">
                   </div>
                   <div class="col-lg-8 pt-4 pt-lg-0 fs-3">
@@ -789,10 +789,10 @@
                     <p>
                       Experience the benefits of CBD in a convenient and enjoyable way with our CBD vape products. Whether you're new to CBD or a seasoned enthusiast, our CBD vape collection offers a quick and efficient method of incorporating CBD into your daily routine. Discover a variety of flavors and formulations that allow you to customize your CBD experience.
                     </p>
-                    <ul>
-                      <li>100% Pure & Natural.</li>
-                      <li>Various strengths available</li>
-                      <li>Allday Dosing System</li>
+                    <ul class="text-success">
+                      <li>A Unique Blend Curated by Artificial Intelligence.</li>
+                      <li>Enjoy Swift and Long-Lasting Pleasure</li>
+                      <li>The Epitome of Distinction</li>
                       <li>Vegan Friendly</li>
                     </ul>
                   </div>
@@ -993,28 +993,12 @@
                   class="text-reset" aria-label="Read more about how to decarboxylate">Decarbing</a>
               </p>
               <p>
+                <a href="https://jcyounger.com/5-most-common-cannabis-extraction-methods-in-2020/" target="_blank" class="text-reset" aria-label="Read more about extraction methods">Extraction</a>
+              </p>
+              <p>
                 <a href="https://www.vice.com/en/article/k7qvyw/investigating-thc-syrup-cannabis-with-the-consistency-of-cough-medicine"
                   target="_blank" class="text-reset" aria-label="Read more about THC syrup">THC Syrup Info</a>
               </p>
-
-              <p>
-                <a href="https://en.wikipedia.org/wiki/Great_Reset" target="_blank" class="text-reset" aria-label="Read more at wikipedia about the great reset">Help</a>
-              </p>
-              <p>
-                <a href="https://codesleeps.github.io/solid-octo-enigma/" target="_blank" class="text-reset" aria-label="Enter this cannabis quiz">Quiz</a>
-              </p>
-              <p>
-                <a href="https://www.youtube.com/watch?v=huzhPzLwGz0" target="_blank" class="text-reset" aria-label="Watch cannabis comedy movie">Movie</a>
-              </p>
-              <p>
-                <a href="https://codesleeps.github.io/Food-Analyzer/" target="_blank" class="text-reset" aria-label="Use this free AI food analyzer app">AI Food
-                  Analyzer</a>
-              </p>
-              <p>
-                <a href="https://jcyounger.com/5-most-common-cannabis-extraction-methods-in-2020/" target="_blank" class="text-reset" aria-label="Read more about extraction methods">Extraction</a>
-              </p>
-              
-
             </div>
             <!-- Grid column -->
 
@@ -1023,22 +1007,18 @@
               <!-- Links -->
               <h6 id="contact" class="text-uppercase fw-bold mb-4 text-light">More Links</h6>
               <p>
-                <a href="https://www.youtube.com/watch?v=rGm6VrLzScM" target="_blank" class="text-reset" aria-label="Watch more on youtube">Council
-                  Rip-Off 💰
-                </a>
+                <a href="https://codesleeps.github.io/Food-Analyzer/" target="_blank" class="text-reset" aria-label="Use this free AI food analyzer app">AI Food
+                  Analyzer</a>
               </p>
               <p>
-                <a href="https://www.youtube.com/watch?v=DJoi4hGpqa8&t=10s" target="_blank" class="text-reset" aria-label="Watch more on youtube">Millions
-                  Killed 💰
+                <a href="https://www.youtube.com/watch?v=y3RIHnK0_NE" target="_blank" class="text-reset" aria-label="Watch more on youtube">A.I. Action
                 </a>
               </p>
-              <p>
-                <a href="https://www.youtube.com/watch?v=y3RIHnK0_NE" target="_blank" class="text-reset" aria-label="Watch more on youtube">A.I. Action 🦾
-                </a>
+               <p>
+                <a href="https://www.youtube.com/watch?v=huzhPzLwGz0" target="_blank" class="text-reset" aria-label="Watch cannabis comedy movie">Movie</a>
               </p>
               <p>
-                <a href="https://www.youtube.com/watch?v=MLSY5thvpQ4" target="_blank" class="text-reset" aria-label="Watch more on youtube">Jokes 😆
-                </a>
+                <a href="https://codesleeps.github.io/solid-octo-enigma/" target="_blank" class="text-reset" aria-label="Enter this cannabis quiz">Quiz</a>
               </p>
             
             </div>
@@ -1083,11 +1063,11 @@
     <!-- End your project here-->
 
     <!-- MDB -->
-    <script async src="./app/js/mdb.min.js" type="text/javascript"></script>
+    <script async src="./app/js/mdb.min.js" type="text/javascript" defer></script>
     <!-- Custom scripts -->
-    <script type="text/javascript" defer></script>
+    <script async type="text/javascript" defer></script>
     <!-- javascript  -->
-    <script async src="./app/js/index.js"></script>
+    <script async src="./app/js/index.js" defer></script>
 
 </body>
 
