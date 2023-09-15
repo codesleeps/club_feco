@@ -2,14 +2,8 @@
 <html lang="en">
 
 <head>
-  <meta strict-transport-security: max-age=31536000; includeSubDomains; x-frame-options: deny; worker-src: sw.js; referrer-policy: no-referrer; feature-policy: camera none; microphone none; preload>
-  <meta http-equiv="Content-Security-Policy" content="
-    img-src 'self';
-    script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css;
-    object-src 'none';
-    frame-src 'none';
-    media-src 'none';
-  ">
+ 
+  <meta name="">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta http-equiv="x-ua-compatible" content="ie=edge" />
@@ -36,18 +30,18 @@
   <!-- favicon -->
   <link async rel="icon" href="./app/img/logo/leaf.png" type="image/x-icon" width="50" height="45" />
   <!-- Font Awesome -->
-  <link async rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" defer/>
+  <link async rel="preconnect" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
   <!-- Google Fonts Roboto -->
-  <link async rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" defer/>
+  <link async rel="preconnect" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"/>
   <!-- Bootstrap CSS (you need to replace this with the correct Bootstrap CDN link) -->
-  <link async rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" defer />
+  <link async rel="preconnect" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
   <!-- MDB -->
-  <link async rel="stylesheet" href="./app/css/mdb.min.css" media="all" defer/>
-  <link async rel="stylesheet" href="./app/css/main.css" media="all" defer/>
+  <link async rel="stylesheet" href="./app/css/mdb.min.css" media="all" />
+  <link async rel="stylesheet" href="./app/css/main.css" media="all" />
   <!-- web manifest  -->
-  <link async rel="manifest" href="./manifest.json" defer>
+  <link async rel="manifest" href="./manifest.json" >
   <!-- canonical  -->
-  <link async rel="canonical" href="https://codesleeps.github.io/club_feco/" defer>
+  <link async rel="canonical" href="https://codesleeps.github.io/club_feco/" >
   <!-- Registering service worker  -->
   <script> 
     if ('serviceWorker' in navigator) {
@@ -107,7 +101,7 @@
       <!-- Navbar end -->
 
       <!-- Background image  -->
-      <section>
+      <section class="hero">
         <div class="p-5 text-center bg-image" loading="lazy" style="background-image: url(./app/img/logo/hero2_501x301.webp); height: 500px">
           <div class="mask" style="background-color: rgba(0, 0, 0, 0.2)">
             <div class="d-flex justify-content-center align-items-center h-100">
@@ -1063,11 +1057,11 @@
     <!-- End your project here-->
 
     <!-- MDB -->
-    <script async src="./app/js/mdb.min.js" type="text/javascript" defer></script>
+    <script async src="./app/js/mdb.min.js" type="text/javascript"></script>
     <!-- Custom scripts -->
-    <script async type="text/javascript" defer></script>
+    <script async type="text/javascript"></script>
     <!-- javascript  -->
-    <script async src="./app/js/index.js" defer></script>
+    <script async src="./app/js/index.js"></script>
 
 </body>
 
