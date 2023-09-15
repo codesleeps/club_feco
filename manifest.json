@@ -7,6 +7,7 @@
   "background_color": "#020203",
   "theme_color": "#020203",
   "orientation": "portrait-primary",
+  
   "icons": [
     {
       "src": "app/img/logo/logo75x75.png",
