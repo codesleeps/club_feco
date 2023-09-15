@@ -1,6 +1,4 @@
 
-
-
 // Register the Service Worker
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
