@@ -1,4 +1,4 @@
-/* reset  */
+
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +14,6 @@
 
 
 .animated-button {
-  /* background: linear-gradient(-30deg, #0b1b3d 50%, #08142b 50%); */
   padding: 10px 20px;
   margin: 12px;
   display: inline-block;
