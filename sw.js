@@ -25,7 +25,7 @@ const resourcesToPrecache = [
   "app/img/about/about_honey_500x334.webp",
   "app/img/about/juiceGlass.webp",
   "app/img/about/shots_selection_500x332.webp",
-  "app/img/smokeless/pineappleSmokeless-transformed.webp",
+  "app/img/smokeless/pineappleSmokeless.webp",
   "app/img/about/topicals_aboutPage.webp",
   "app/img/carousel/cannabisPlant.webp",
   "app/img/carousel/gummies.webp",
