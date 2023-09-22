@@ -1,9 +1,3 @@
-/**
- * --------------------------------------------------------------------------
- * Bootstrap (v5.2.3): modal.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- * --------------------------------------------------------------------------
- */
 
 import { defineJQueryPlugin, getElementFromSelector, isRTL, isVisible, reflow } from './util/index';
 import EventHandler from './dom/event-handler';

@@ -1,9 +1,3 @@
-/**
- * --------------------------------------------------------------------------
- * Bootstrap (v5.2.3): util/component-functions.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- * --------------------------------------------------------------------------
- */
 
 import EventHandler from '../dom/event-handler';
 import { getElementFromSelector, isDisabled } from './index';

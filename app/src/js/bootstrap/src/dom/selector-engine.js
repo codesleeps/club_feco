@@ -1,9 +1,3 @@
-/**
- * --------------------------------------------------------------------------
- * Bootstrap (v5.2.3): dom/selector-engine.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- * --------------------------------------------------------------------------
- */
 
 import { isDisabled, isVisible } from '../util/index';
 

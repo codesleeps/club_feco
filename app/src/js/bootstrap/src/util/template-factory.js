@@ -1,9 +1,3 @@
-/**
- * --------------------------------------------------------------------------
- * Bootstrap (v5.2.3): util/template-factory.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- * --------------------------------------------------------------------------
- */
 
 import { DefaultAllowlist, sanitizeHtml } from './sanitizer';
 import { getElement, isElement } from '../util/index';

@@ -1,9 +1,4 @@
-/**
- * --------------------------------------------------------------------------
- * Bootstrap (v5.2.3): base-component.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- * --------------------------------------------------------------------------
- */
+
 
 import Data from './dom/data';
 import { executeAfterTransition, getElement } from './util/index';
