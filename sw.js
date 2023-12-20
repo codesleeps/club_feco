@@ -64,14 +64,14 @@ const resourcesToPrecache = [
   "app/img/vape/vape_small.webp",
 ];
 
-self.addEventListener("install", (event) => {
-  console.log("Service worker install event!");
-  event.waitUntil(
-    caches.open(cacheName).then((cache) => {
-      return cache.addAll(resourcesToPrecache);
-    })
-  );
-});
+// self.addEventListener("install", (event) => {
+//   console.log("Service worker install event!");
+//   event.waitUntil(
+//     caches.open(cacheName).then((cache) => {
+//       return cache.addAll(resourcesToPrecache);
+//     })
+//   );
+// });
 
 // Implementing cache-first
 self.addEventListener("fetch", (event) => {

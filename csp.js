@@ -11,7 +11,7 @@
    let meta = document.createElement("meta");
    meta.setAttribute("http-equiv", "Content-Security-Policy");
    meta.setAttribute(
-     "content", 
+     "content", "default-src 'self'; img-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' ; font-src 'self' ; connect-src 'self';"
     
    );
    document.head.appendChild(meta);
