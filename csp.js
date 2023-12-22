@@ -11,8 +11,8 @@
    let meta = document.createElement("meta");
    meta.setAttribute("http-equiv", "Content-Security-Policy");
    meta.setAttribute(
-     "content", "default-src 'self'; img-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' ; font-src 'self' ; connect-src 'self';"
-    
+     "content",
+     "default-src 'self'; img-src 'self'; script-src 'self' https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css 'unsafe-inline'; style-src 'self' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css 'unsafe-inline'; font-src 'self' ; connect-src 'self';"
    );
    document.head.appendChild(meta);
  });
